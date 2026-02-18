@@ -11,16 +11,19 @@ Ensure you have [`uv`](https://github.com/astral-sh/uv) installed before proceed
 Each command launches a client paired with the MCP server (`server.py`).
 
 **Anthropic (Claude)**
+
 ```bash
 uv run python ./client.py ./server.py
 ```
 
 **OpenAI**
+
 ```bash
 uv run python ./client_openai.py ./server.py
 ```
 
 **DeepSeek**
+
 ```bash
 uv run python ./client_deepseek.py ./server.py
 ```
@@ -29,10 +32,14 @@ uv run python ./client_deepseek.py ./server.py
 
 Before running, ensure the appropriate API key is set as an environment variable:
 
-| Provider  | Environment Variable   |
-|-----------|------------------------|
-| Anthropic | `ANTHROPIC_API_KEY`    |
-| OpenAI    | `OPENAI_API_KEY`       |
-| DeepSeek  | `DEEPSEEK_API_KEY`     |
+| Provider  | Environment Variable |
+| --------- | -------------------- |
+| Anthropic | `ANTHROPIC_API_KEY`  |
+| OpenAI    | `OPENAI_API_KEY`     |
+| DeepSeek  | `DEEPSEEK_API_KEY`   |
 
-You can set these in a `.env` file at the project root
+You can set these in a `.env` file at the project root.
+
+### Device-Specific Files
+
+For files related to **Lumentum ROADM**, **Lumentum 400 GbE CFP2-DCO**, **Calient switch**, or **DiCon switch**, please email us to request access.
