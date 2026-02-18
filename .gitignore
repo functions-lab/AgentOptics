@@ -1,0 +1,14 @@
+__pycache__/
+*.pyc
+.venv/
+
+.ipynb_checkpoints/
+
+.DS_Store
+.vscode/
+.idea/
+
+.env
+kaggle.json
+*.pem
+*.key
