@@ -1,0 +1,1254 @@
+{
+    "tool_1": {
+        "tasks": [
+            {
+                "id": "cfp2_set_power_-5dbm",
+                "desc": "set CFP port cfp2-opt-1-1 power to -5 dBm",
+                "devices": [
+                    "CFP2"
+                ],
+                "expected_tools": [
+                    "cfp2_set_target_output_power"
+                ],
+                "manual": [
+                    "PATH_TO_MANUALS"
+                ],
+                "expression_var": [
+                    "On the CFP2, set output target power on port cfp2-opt-1-1 to -5 dBm.",
+                    "Using the CFP2, adjust the output target power parameter on port cfp2-opt-1-1 to -5 dBm.",
+                    "For the CFP2, issue a configuration to make the output target power on port cfp2-opt-1-1 equal to -5 dBm.",
+                    "Operate the CFP2 so that port cfp2-opt-1-1 has an output target power setting of -5 dBm.",
+                    "On the CFP2, program port cfp2-opt-1-1 with an output target power of -5 dBm."
+                ],
+                "fluff_var": [
+                    "set CFP port cfp2-opt-1-1 power to -5 dBm; the bench mat has a curled corner.",
+                    "set CFP port cfp2-opt-1-1 power to -5 dBm; the rack fan hum is steady.",
+                    "set CFP port cfp2-opt-1-1 power to -5 dBm; a yellow cable tag is loose.",
+                    "set CFP port cfp2-opt-1-1 power to -5 dBm; the label ink is faint.",
+                    "set CFP port cfp2-opt-1-1 power to -5 dBm; the chair wheels squeak lightly."
+                ],
+                "error_var": [
+                    "On the CFP2, set output target power on port cfp2-opt-1-1.",
+                    "On the CFP2, set output target power on port cfp2-opt-1-1 to -100 dBm.",
+                    "On the OSA, set output target power on port cfp2-opt-1-1 to -5 dBm."
+                ],
+                "roles": [
+                    "You are an optical device user; set CFP port cfp2-opt-1-1 power to -5 dBm",
+                    "You are an optical service provider; set CFP port cfp2-opt-1-1 power to -5 dBm",
+                    "You are an autonomous robot to control the optical device; set CFP port cfp2-opt-1-1 power to -5 dBm"
+                ]
+            },
+            {
+                "id": "cfp2_set_frequency_195500000_mhz",
+                "desc": "set CFP port cfp2-opt-1-1 frequency to 195,500,000 MHz",
+                "devices": [
+                    "CFP2"
+                ],
+                "expected_tools": [
+                    "cfp2_set_frequency"
+                ],
+                "manual": [
+                    "PATH_TO_MANUALS"
+                ],
+                "expression_var": [
+                    "On the CFP2, set frequency on port cfp2-opt-1-1 to 195,500,000 MHz.",
+                    "Using the CFP2, program the frequency parameter for port cfp2-opt-1-1 to 195,500,000 MHz.",
+                    "For the CFP2, apply a frequency setting of 195,500,000 MHz on port cfp2-opt-1-1.",
+                    "Operate the CFP2 to configure port cfp2-opt-1-1 with frequency = 195,500,000 MHz.",
+                    "On the CFP2, adjust the frequency value on port cfp2-opt-1-1 to 195,500,000 MHz."
+                ],
+                "fluff_var": [
+                    "cfp2 set frequency on port cfp2-opt-1-1 to be 195,500,000 MHz; the rack light flickers briefly.",
+                    "cfp2 set frequency on port cfp2-opt-1-1 to be 195,500,000 MHz; a cable tag is frayed.",
+                    "cfp2 set frequency on port cfp2-opt-1-1 to be 195,500,000 MHz; the mat corner is curled.",
+                    "cfp2 set frequency on port cfp2-opt-1-1 to be 195,500,000 MHz; the mouse wheel sticks slightly.",
+                    "cfp2 set frequency on port cfp2-opt-1-1 to be 195,500,000 MHz; the monitor shows a faint reflection."
+                ],
+                "error_var": [
+                    "On the CFP2, set frequency on port cfp2-opt-1-1.",
+                    "On the CFP2, set frequency on port cfp2-opt-1-1 to 0 MHz.",
+                    "On the OSA, set frequency on port cfp2-opt-1-1 to 195500000 MHz."
+                ],
+                "roles": [
+                    "You are an optical device user; set CFP port cfp2-opt-1-1 frequency to 195,500,000 MHz",
+                    "You are an optical service provider; set CFP port cfp2-opt-1-1 frequency to 195,500,000 MHz",
+                    "You are an autonomous robot to control the optical device; set CFP port cfp2-opt-1-1 frequency to 195,500,000 MHz"
+                ]
+            },
+            {
+                "id": "osa_set_center_wavelength_1550",
+                "desc": "set OSA center wavelength 1550 nm",
+                "devices": [
+                    "OSA"
+                ],
+                "expected_tools": [
+                    "osa_set_center"
+                ],
+                "manual": [
+                    "PATH_TO_MANUALS"
+                ],
+                "py_path": [
+                    "PATH_TO_CODEBASE"
+                ],
+                "expression_var": [
+                    "On the OSA, set the center wavelength to 1550 nm.",
+                    "Using the OSA, tune the center wavelength parameter so it equals 1550 nm.",
+                    "For the OSA, apply a center wavelength setting of 1550 nm.",
+                    "Operate the OSA to configure center wavelength at 1550 nm.",
+                    "On the OSA, program center wavelength = 1550 nm."
+                ],
+                "fluff_var": [
+                    "set OSA center wavelength 1550 nm; the display has a faint glare.",
+                    "set OSA center wavelength 1550 nm; a sticky note says recalibrate soon.",
+                    "set OSA center wavelength 1550 nm; the Ethernet cable is loosely coiled.",
+                    "set OSA center wavelength 1550 nm; the mouse cable brushes the notebook.",
+                    "set OSA center wavelength 1550 nm; the power strip indicator is bright."
+                ],
+                "error_var": [
+                    "On the OSA, set the center wavelength.",
+                    "On the OSA, set the center wavelength to -1550 nm.",
+                    "On the CFP2, set the center wavelength to 1550 nm."
+                ],
+                "roles": [
+                    "You are an optical device user; set OSA center wavelength 1550 nm",
+                    "You are an optical service provider; set OSA center wavelength 1550 nm",
+                    "You are an autonomous robot to control the optical device; set OSA center wavelength 1550 nm"
+                ]
+            },
+            {
+                "id": "osa_set_start_wavelength_1545",
+                "desc": "set OSA start wavelength 1545 nm",
+                "devices": [
+                    "OSA"
+                ],
+                "expected_tools": [
+                    "osa_set_start_wavelength"
+                ],
+                "manual": [
+                    "PATH_TO_MANUALS"
+                ],
+                "py_path": [
+                    "PATH_TO_CODEBASE"
+                ],
+                "expression_var": [
+                    "On the OSA, configure start wavelength to 1545 nm.",
+                    "Using the OSA, set the start wavelength parameter to 1545 nm.",
+                    "For the OSA, make the start wavelength equal to 1545 nm.",
+                    "Operate the OSA to establish a start wavelength of 1545 nm.",
+                    "On the OSA, program start wavelength = 1545 nm."
+                ],
+                "fluff_var": [
+                    "set OSA start wavelength 1545 nm; the cart wheel squeaks slightly.",
+                    "set OSA start wavelength 1545 nm; a binder clip rests on the shelf.",
+                    "set OSA start wavelength 1545 nm; the room clock ticks loudly.",
+                    "set OSA start wavelength 1545 nm; the label on the fiber is crooked.",
+                    "set OSA start wavelength 1545 nm; the keyboard backlight is dim."
+                ],
+                "error_var": [
+                    "On the OSA, set the start wavelength.",
+                    "On the OSA, set the start wavelength to -1 nm.",
+                    "On the CFP2, set the start wavelength to 1545 nm."
+                ],
+                "roles": [
+                    "You are an optical device user; set OSA start wavelength 1545 nm",
+                    "You are an optical service provider; set OSA start wavelength 1545 nm",
+                    "You are an autonomous robot to control the optical device; set OSA start wavelength 1545 nm"
+                ]
+            },
+            {
+                "id": "osa_set_stop_wavelength_1555",
+                "desc": "set OSA stop wavelength 1555 nm",
+                "devices": [
+                    "OSA"
+                ],
+                "expected_tools": [
+                    "osa_set_stop_wavelength"
+                ],
+                "manual": [
+                    "PATH_TO_MANUALS"
+                ],
+                "py_path": [
+                    "PATH_TO_CODEBASE"
+                ],
+                "expression_var": [
+                    "On the OSA, set stop wavelength to 1555 nm.",
+                    "Using the OSA, adjust the stop wavelength parameter to 1555 nm.",
+                    "For the OSA, apply a stop wavelength setting of 1555 nm.",
+                    "Operate the OSA to configure stop wavelength at 1555 nm.",
+                    "On the OSA, program stop wavelength = 1555 nm."
+                ],
+                "fluff_var": [
+                    "set OSA stop wavelength 1555 nm; the bench lamp flickers for a moment.",
+                    "set OSA stop wavelength 1555 nm; the mouse pad has a coffee ring.",
+                    "set OSA stop wavelength 1555 nm; a blue cable tag is attached.",
+                    "set OSA stop wavelength 1555 nm; the monitor brightness is low.",
+                    "set OSA stop wavelength 1555 nm; the tool drawer is slightly open."
+                ],
+                "error_var": [
+                    "On the OSA, set the stop wavelength.",
+                    "On the OSA, set the stop wavelength to 10000 nm.",
+                    "On the CFP2, set the stop wavelength to 1555 nm."
+                ],
+                "roles": [
+                    "You are an optical device user; set OSA stop wavelength 1555 nm",
+                    "You are an optical service provider; set OSA stop wavelength 1555 nm",
+                    "You are an autonomous robot to control the optical device; set OSA stop wavelength 1555 nm"
+                ]
+            },
+            {
+                "id": "osa_set_span_8nm",
+                "desc": "set OSA wavelength span 8 nm",
+                "devices": [
+                    "OSA"
+                ],
+                "expected_tools": [
+                    "osa_set_span"
+                ],
+                "manual": [
+                    "PATH_TO_MANUALS"
+                ],
+                "py_path": [
+                    "PATH_TO_CODEBASE"
+                ],
+                "expression_var": [
+                    "On the OSA, configure wavelength span to 8 nm.",
+                    "Using the OSA, set the wavelength span value to 8 nm.",
+                    "For the OSA, apply a wavelength span of 8 nm.",
+                    "Operate the OSA to enforce wavelength span = 8 nm.",
+                    "On the OSA, change the wavelength span parameter to 8 nm."
+                ],
+                "fluff_var": [
+                    "set OSA wavelength span 8 nm; the HDMI cable rattles softly.",
+                    "set OSA wavelength span 8 nm; a spare ferrule sits by the keyboard.",
+                    "set OSA wavelength span 8 nm; the chair leans slightly.",
+                    "set OSA wavelength span 8 nm; the label font is faded.",
+                    "set OSA wavelength span 8 nm; the pen ink skips occasionally."
+                ],
+                "error_var": [
+                    "On the OSA, configure wavelength span.",
+                    "On the OSA, configure wavelength span to -5 nm.",
+                    "On the CFP2, configure wavelength span to 8 nm."
+                ],
+                "roles": [
+                    "You are an optical device user; set OSA wavelength span 8 nm",
+                    "You are an optical service provider; set OSA wavelength span 8 nm",
+                    "You are an autonomous robot to control the optical device; set OSA wavelength span 8 nm"
+                ]
+            },
+            {
+                "id": "osa_set_x_resolution_0p5",
+                "desc": "set OSA x-resolution 0.5",
+                "devices": [
+                    "OSA"
+                ],
+                "expected_tools": [
+                    "osa_set_x_resolution"
+                ],
+                "manual": [
+                    "PATH_TO_MANUALS"
+                ],
+                "py_path": [
+                    "PATH_TO_CODEBASE"
+                ],
+                "expression_var": [
+                    "On the OSA, set x-resolution to 0.5.",
+                    "Using the OSA, configure the x-resolution parameter so it equals 0.5.",
+                    "For the OSA, apply an x-resolution setting of 0.5.",
+                    "Operate the OSA to enforce x-resolution = 0.5.",
+                    "On the OSA, change the x-resolution value to 0.5."
+                ],
+                "fluff_var": [
+                    "set OSA x-resolution 0.5; the mouse cable is tangled.",
+                    "set OSA x-resolution 0.5; the desk lamp flickers briefly.",
+                    "set OSA x-resolution 0.5; a paperclip sits by the touchpad.",
+                    "set OSA x-resolution 0.5; the bench mat is dusty.",
+                    "set OSA x-resolution 0.5; the monitor angle is slightly off."
+                ],
+                "error_var": [
+                    "On the OSA, set x-resolution.",
+                    "On the OSA, set x-resolution to -0.1.",
+                    "On the CFP2, set x-resolution to 0.5."
+                ],
+                "roles": [
+                    "You are an optical device user; set OSA x-resolution 0.5",
+                    "You are an optical service provider; set OSA x-resolution 0.5",
+                    "You are an autonomous robot to control the optical device; set OSA x-resolution 0.5"
+                ]
+            },
+            {
+                "id": "osa_set_y_resolution_1",
+                "desc": "set OSA y-resolution 1",
+                "devices": [
+                    "OSA"
+                ],
+                "expected_tools": [
+                    "osa_set_y_resolution"
+                ],
+                "manual": [
+                    "PATH_TO_MANUALS"
+                ],
+                "py_path": [
+                    "PATH_TO_CODEBASE"
+                ],
+                "expression_var": [
+                    "On the OSA, set y-resolution to 1.",
+                    "Using the OSA, adjust the y-resolution parameter to 1.",
+                    "For the OSA, apply a y-resolution value of 1.",
+                    "Operate the OSA to enforce y-resolution = 1.",
+                    "On the OSA, change the y-resolution setting to 1."
+                ],
+                "fluff_var": [
+                    "set OSA y-resolution 1; the keyboard leg is uneven.",
+                    "set OSA y-resolution 1; a sticky note is curled at the edge.",
+                    "set OSA y-resolution 1; the chair back clicks once.",
+                    "set OSA y-resolution 1; the rack door creaks quietly.",
+                    "set OSA y-resolution 1; the power button LED is bright."
+                ],
+                "error_var": [
+                    "On the OSA, set y-resolution.",
+                    "On the OSA, set y-resolution to 1000.",
+                    "On the CFP2, set y-resolution to 1."
+                ],
+                "roles": [
+                    "You are an optical device user; set OSA y-resolution 1",
+                    "You are an optical service provider; set OSA y-resolution 1",
+                    "You are an autonomous robot to control the optical device; set OSA y-resolution 1"
+                ]
+            },
+            {
+                "id": "osa_set_num_points_100",
+                "desc": "set OSA number of points to 100",
+                "devices": [
+                    "OSA"
+                ],
+                "expected_tools": [
+                    "osa_set_npoints"
+                ],
+                "manual": [
+                    "PATH_TO_MANUALS"
+                ],
+                "py_path": [
+                    "PATH_TO_CODEBASE"
+                ],
+                "expression_var": [
+                    "On the OSA, set number of points to 100.",
+                    "Using the OSA, configure the number of points parameter so it equals 100.",
+                    "For the OSA, apply a number of points setting of 100.",
+                    "Operate the OSA to set number of points = 100.",
+                    "On the OSA, change the number of points value to 100."
+                ],
+                "fluff_var": [
+                    "set OSA number of points to 100; the stapler is empty.",
+                    "set OSA number of points to 100; the Ethernet jack feels loose.",
+                    "set OSA number of points to 100; the mouse wheel rattles slightly.",
+                    "set OSA number of points to 100; the pen clicks twice.",
+                    "set OSA number of points to 100; the display has a small smudge."
+                ],
+                "error_var": [
+                    "On the OSA, set number of points.",
+                    "On the OSA, set number of points to -10.",
+                    "On the CFP2, set number of points to 100."
+                ],
+                "roles": [
+                    "You are an optical device user; set OSA number of points to 100",
+                    "You are an optical service provider; set OSA number of points to 100",
+                    "You are an autonomous robot to control the optical device; set OSA number of points to 100"
+                ]
+            },
+            {
+                "id": "edfa_get_information",
+                "desc": "get EDFA info",
+                "devices": [
+                    "EDFA"
+                ],
+                "expected_tools": [
+                    "get_edfa_info"
+                ],
+                "manual": [
+                    "PATH_TO_MANUALS"
+                ],
+                "expression_var": [
+                    "On the EDFA, get EDFA info.",
+                    "Using the EDFA, read EDFA info.",
+                    "For the EDFA, retrieve EDFA info.",
+                    "Operate the EDFA to query EDFA info.",
+                    "On the EDFA, obtain EDFA info."
+                ],
+                "fluff_var": [
+                    "get EDFA info; the status LED blinks slowly.",
+                    "get EDFA info; the rack door creaks a little.",
+                    "get EDFA info; a zip tie tail sticks out.",
+                    "get EDFA info; the monitor shows a mild glare.",
+                    "get EDFA info; the cart wheel squeaks once."
+                ],
+                "error_var": [
+                    "On the EDFA, get EDFA info (parameter removed).",
+                    "On the EDFA, get EDFA info with timeout = -1 (invalid).",
+                    "On the CFP2, get EDFA info."
+                ],
+                "roles": [
+                    "You are an optical device user; get EDFA info",
+                    "You are an optical service provider; get EDFA info",
+                    "You are an autonomous robot to control the optical device; get EDFA info"
+                ]
+            }
+        ]
+    },
+    "tool_2": {
+        "tasks": [
+            {
+                "id": "arof_set_get_bias_voltage_-0p9",
+                "desc": "(1) ARoF set bias voltage to be -0.9V; (2) get bias voltage",
+                "devices": [
+                    "ARoF"
+                ],
+                "expected_tools": [
+                    "arof_tx_set_bias_voltage",
+                    "arof_tx_get_bias_voltage"
+                ],
+                "manual": [
+                    "PATH_TO_MANUALS"
+                ],
+                "expression_var": [
+                    "(1) On the ARoF, set bias voltage to -0.9 V; (2) On the ARoF, get bias voltage in volts.",
+                    "(1) Using the ARoF, configure the bias voltage parameter to -0.9 V; (2) Using the ARoF, read the bias voltage value in volts.",
+                    "(1) For the ARoF, apply a bias voltage of -0.9 V; (2) For the ARoF, retrieve the bias voltage value in volts.",
+                    "(1) Operate the ARoF to program bias voltage = -0.9 V; (2) Operate the ARoF to query bias voltage (V).",
+                    "(1) On the ARoF, drive the bias voltage setting to -0.9 V; (2) On the ARoF, obtain the bias voltage reading in volts."
+                ],
+                "fluff_var": [
+                    "(1) ARoF set bias voltage to be -0.9V; (2) get bias voltage; the rack door creaks slightly.",
+                    "(1) ARoF set bias voltage to be -0.9V; (2) get bias voltage; a blue sticker marks the cable.",
+                    "(1) ARoF set bias voltage to be -0.9V; (2) get bias voltage; the fan ramps momentarily.",
+                    "(1) ARoF set bias voltage to be -0.9V; (2) get bias voltage; the desk lamp flickers once.",
+                    "(1) ARoF set bias voltage to be -0.9V; (2) get bias voltage; the mouse cord snags on the mat."
+                ]
+            },
+            {
+                "id": "arof_set_get_bias_current_99",
+                "desc": "(1) ARoF set bias current to be 99 mA; (2) get bias current",
+                "devices": [
+                    "ARoF"
+                ],
+                "expected_tools": [
+                    "arof_tx_set_bias_current",
+                    "arof_tx_get_bias_current"
+                ],
+                "manual": [
+                    "PATH_TO_MANUALS"
+                ],
+                "expression_var": [
+                    "(1) On the ARoF, set bias current to 99 mA; (2) On the ARoF, get bias current in mA.",
+                    "(1) Using the ARoF, configure the bias current parameter to 99 mA; (2) Using the ARoF, read the bias current value in mA.",
+                    "(1) For the ARoF, apply a bias current of 99 mA; (2) For the ARoF, retrieve the bias current measurement in mA.",
+                    "(1) Operate the ARoF to program bias current = 99 mA; (2) Operate the ARoF to query bias current (mA).",
+                    "(1) On the ARoF, drive the bias current setting to 99 mA; (2) On the ARoF, obtain the bias current reading in mA."
+                ],
+                "fluff_var": [
+                    "(1) ARoF set bias current to be 99 mA; (2) get bias current; the label tape is nearly empty.",
+                    "(1) ARoF set bias current to be 99 mA; (2) get bias current; the chair wobbles slightly.",
+                    "(1) ARoF set bias current to be 99 mA; (2) get bias current; the pen ink is faint.",
+                    "(1) ARoF set bias current to be 99 mA; (2) get bias current; the cart wheel squeaks once.",
+                    "(1) ARoF set bias current to be 99 mA; (2) get bias current; a paperclip sits by the keypad."
+                ]
+            },
+            {
+                "id": "osa_set_get_span_10",
+                "desc": "(1) set OSA wavelength span 10 nm; (2) get OSA wavelength span",
+                "devices": [
+                    "OSA"
+                ],
+                "expected_tools": [
+                    "osa_set_span",
+                    "osa_get_span"
+                ],
+                "manual": [
+                    "PATH_TO_MANUALS"
+                ],
+                "py_path": [
+                    "PATH_TO_CODEBASE"
+                ],
+                "expression_var": [
+                    "(1) On the OSA, set wavelength span to 10 nm; (2) On the OSA, get wavelength span in nm.",
+                    "(1) Using the OSA, configure the wavelength span parameter to 10 nm; (2) Using the OSA, read the wavelength span value in nm.",
+                    "(1) For the OSA, apply a wavelength span of 10 nm; (2) For the OSA, retrieve the wavelength span measurement in nm.",
+                    "(1) Operate the OSA to program wavelength span = 10 nm; (2) Operate the OSA to query wavelength span (nm).",
+                    "(1) On the OSA, adjust the wavelength span setting to 10 nm; (2) On the OSA, obtain the wavelength span reading in nm."
+                ],
+                "fluff_var": [
+                    "(1) set OSA wavelength span 10 nm; (2) get OSA wavelength span; the desk lamp buzzes faintly.",
+                    "(1) set OSA wavelength span 10 nm; (2) get OSA wavelength span; a binder clip rattles.",
+                    "(1) set OSA wavelength span 10 nm; (2) get OSA wavelength span; the monitor shows a reflection.",
+                    "(1) set OSA wavelength span 10 nm; (2) get OSA wavelength span; the USB hub blinks slowly.",
+                    "(1) set OSA wavelength span 10 nm; (2) get OSA wavelength span; the label is slightly crooked."
+                ]
+            },
+            {
+                "id": "osa_set_get_start_1543",
+                "desc": "(1) set OSA start wavelength 1543 nm; (2) get OSA start wavelength",
+                "devices": [
+                    "OSA"
+                ],
+                "expected_tools": [
+                    "osa_set_start_wavelength",
+                    "osa_get_start_wavelength"
+                ],
+                "manual": [
+                    "PATH_TO_MANUALS"
+                ],
+                "py_path": [
+                    "PATH_TO_CODEBASE"
+                ],
+                "expression_var": [
+                    "(1) On the OSA, set start wavelength to 1543 nm; (2) On the OSA, get start wavelength in nm.",
+                    "(1) Using the OSA, configure the start wavelength parameter to 1543 nm; (2) Using the OSA, read the start wavelength value in nm.",
+                    "(1) For the OSA, apply a start wavelength of 1543 nm; (2) For the OSA, retrieve the start wavelength measurement in nm.",
+                    "(1) Operate the OSA to program start wavelength = 1543 nm; (2) Operate the OSA to query start wavelength (nm).",
+                    "(1) On the OSA, adjust the start wavelength setting to 1543 nm; (2) On the OSA, obtain the start wavelength reading in nm."
+                ],
+                "fluff_var": [
+                    "(1) set OSA start wavelength 1543 nm; (2) get OSA start wavelength; the chair squeaks once.",
+                    "(1) set OSA start wavelength 1543 nm; (2) get OSA start wavelength; a sticky note curls at the edge.",
+                    "(1) set OSA start wavelength 1543 nm; (2) get OSA start wavelength; the keyboard has dust on it.",
+                    "(1) set OSA start wavelength 1543 nm; (2) get OSA start wavelength; the cart wobbles slightly.",
+                    "(1) set OSA start wavelength 1543 nm; (2) get OSA start wavelength; the cable tray hums softly."
+                ]
+            },
+            {
+                "id": "osa_set_get_center_1552",
+                "desc": "(1) set OSA center wavelength 1552 nm; (2) get OSA center wavelength",
+                "devices": [
+                    "OSA"
+                ],
+                "expected_tools": [
+                    "osa_set_center",
+                    "osa_get_center"
+                ],
+                "manual": [
+                    "PATH_TO_MANUALS"
+                ],
+                "py_path": [
+                    "PATH_TO_CODEBASE"
+                ],
+                "expression_var": [
+                    "(1) On the OSA, set center wavelength to 1552 nm; (2) On the OSA, get center wavelength in nm.",
+                    "(1) Using the OSA, configure the center wavelength parameter to 1552 nm; (2) Using the OSA, read the center wavelength value in nm.",
+                    "(1) For the OSA, apply a center wavelength of 1552 nm; (2) For the OSA, retrieve the center wavelength measurement in nm.",
+                    "(1) Operate the OSA to program center wavelength = 1552 nm; (2) Operate the OSA to query center wavelength (nm).",
+                    "(1) On the OSA, adjust the center wavelength setting to 1552 nm; (2) On the OSA, obtain the center wavelength reading in nm."
+                ],
+                "fluff_var": [
+                    "(1) set OSA center wavelength 1552 nm; (2) get OSA center wavelength; the monitor angle is slightly off.",
+                    "(1) set OSA center wavelength 1552 nm; (2) get OSA center wavelength; the fan noise is constant.",
+                    "(1) set OSA center wavelength 1552 nm; (2) get OSA center wavelength; a binder clip sits on the rack.",
+                    "(1) set OSA center wavelength 1552 nm; (2) get OSA center wavelength; the power button glow is bright.",
+                    "(1) set OSA center wavelength 1552 nm; (2) get OSA center wavelength; the mouse pad edge is worn."
+                ]
+            },
+            {
+                "id": "osa_set_get_x_resolution_1",
+                "desc": "(1) set OSA x-resolution 1; (2) get OSA x-resolution",
+                "devices": [
+                    "OSA"
+                ],
+                "expected_tools": [
+                    "osa_set_x_resolution",
+                    "osa_get_x_resolution"
+                ],
+                "manual": [
+                    "PATH_TO_MANUALS"
+                ],
+                "py_path": [
+                    "PATH_TO_CODEBASE"
+                ],
+                "expression_var": [
+                    "(1) On the OSA, set x-resolution to 1; (2) On the OSA, get x-resolution.",
+                    "(1) Using the OSA, configure the x-resolution parameter to 1; (2) Using the OSA, read the x-resolution value.",
+                    "(1) For the OSA, apply an x-resolution of 1; (2) For the OSA, retrieve the x-resolution.",
+                    "(1) Operate the OSA to program x-resolution = 1; (2) Operate the OSA to query x-resolution.",
+                    "(1) On the OSA, adjust the x-resolution setting to 1; (2) On the OSA, obtain the x-resolution reading."
+                ],
+                "fluff_var": [
+                    "(1) set OSA x-resolution 1; (2) get OSA x-resolution; the mouse pad edge is frayed.",
+                    "(1) set OSA x-resolution 1; (2) get OSA x-resolution; the rack fan hum is steady.",
+                    "(1) set OSA x-resolution 1; (2) get OSA x-resolution; the cable tag is folded.",
+                    "(1) set OSA x-resolution 1; (2) get OSA x-resolution; the chair wheels squeak.",
+                    "(1) set OSA x-resolution 1; (2) get OSA x-resolution; a paperclip sits by the keyboard."
+                ]
+            },
+            {
+                "id": "osa_set_get_y_resolution_0p5",
+                "desc": "(1) set OSA y-resolution 0.5; (2) get OSA y-resolution",
+                "devices": [
+                    "OSA"
+                ],
+                "expected_tools": [
+                    "osa_set_y_resolution",
+                    "osa_get_y_resolution"
+                ],
+                "manual": [
+                    "PATH_TO_MANUALS"
+                ],
+                "py_path": [
+                    "PATH_TO_CODEBASE"
+                ],
+                "expression_var": [
+                    "(1) On the OSA, set y-resolution to 0.5; (2) On the OSA, get y-resolution.",
+                    "(1) Using the OSA, configure the y-resolution parameter to 0.5; (2) Using the OSA, read the y-resolution value.",
+                    "(1) For the OSA, apply a y-resolution of 0.5; (2) For the OSA, retrieve the y-resolution.",
+                    "(1) Operate the OSA to program y-resolution = 0.5; (2) Operate the OSA to query y-resolution.",
+                    "(1) On the OSA, adjust the y-resolution setting to 0.5; (2) On the OSA, obtain the y-resolution reading."
+                ],
+                "fluff_var": [
+                    "(1) set OSA y-resolution 0.5; (2) get OSA y-resolution; the label on the fiber is faded.",
+                    "(1) set OSA y-resolution 0.5; (2) get OSA y-resolution; the display shows a slight reflection.",
+                    "(1) set OSA y-resolution 0.5; (2) get OSA y-resolution; the cart handle feels loose.",
+                    "(1) set OSA y-resolution 0.5; (2) get OSA y-resolution; the chair back clicks once.",
+                    "(1) set OSA y-resolution 0.5; (2) get OSA y-resolution; the mouse cable brushes the notebook."
+                ]
+            },
+            {
+                "id": "osa_set_get_num_points_200",
+                "desc": "(1) set OSA number of points to 200; (2) get OSA number of points",
+                "devices": [
+                    "OSA"
+                ],
+                "expected_tools": [
+                    "osa_set_npoints",
+                    "osa_get_npoints"
+                ],
+                "manual": [
+                    "PATH_TO_MANUALS"
+                ],
+                "py_path": [
+                    "PATH_TO_CODEBASE"
+                ],
+                "expression_var": [
+                    "(1) On the OSA, set number of points to 200; (2) On the OSA, get number of points.",
+                    "(1) Using the OSA, configure the number of points parameter to 200; (2) Using the OSA, read the number of points value.",
+                    "(1) For the OSA, apply a number of points of 200; (2) For the OSA, retrieve the number of points.",
+                    "(1) Operate the OSA to program number of points = 200; (2) Operate the OSA to query number of points.",
+                    "(1) On the OSA, adjust the number of points setting to 200; (2) On the OSA, obtain the number of points reading."
+                ],
+                "fluff_var": [
+                    "(1) set OSA number of points to 200; (2) get OSA number of points; the stapler makes a dull click.",
+                    "(1) set OSA number of points to 200; (2) get OSA number of points; the bench surface is dusty.",
+                    "(1) set OSA number of points to 200; (2) get OSA number of points; a cable tie dangles nearby.",
+                    "(1) set OSA number of points to 200; (2) get OSA number of points; the monitor shows a small glare.",
+                    "(1) set OSA number of points to 200; (2) get OSA number of points; the chair rolls unevenly."
+                ]
+            },
+            {
+                "id": "edfa_enable_3s_get_information",
+                "desc": "(1) enable booster EDFA for 3 seconds; (2) get EDFA info",
+                "devices": [
+                    "EDFA"
+                ],
+                "expected_tools": [
+                    "enable_booster_EDFA",
+                    "get_edfa_info"
+                ],
+                "manual": [
+                    "PATH_TO_MANUALS"
+                ],
+                "expression_var": [
+                    "(1) On the booster EDFA, enable operation for 3 seconds; (2) On the EDFA, get EDFA information.",
+                    "(1) Using the booster EDFA, enable for 3 seconds; (2) Using the EDFA, read EDFA information.",
+                    "(1) For the booster EDFA, enable for 3 seconds; (2) For the EDFA, retrieve EDFA information.",
+                    "(1) Enable the booster EDFA for a duration of 3 seconds; (2) Operate the EDFA to query EDFA information.",
+                    "(1) On the booster EDFA, enable operation lasting 3 seconds; (2) On the EDFA, obtain EDFA information."
+                ],
+                "fluff_var": [
+                    "(1) enable booster EDFA for 3 seconds; (2) get EDFA info; the rack handle feels loose.",
+                    "(1) enable booster EDFA for 3 seconds; (2) get EDFA info; the fan noise increases slightly.",
+                    "(1) enable booster EDFA for 3 seconds; (2) get EDFA info; the label on the panel is worn.",
+                    "(1) enable booster EDFA for 3 seconds; (2) get EDFA info; a small binder clip is on the shelf.",
+                    "(1) enable booster EDFA for 3 seconds; (2) get EDFA info; the power indicator is bright."
+                ]
+            },
+            {
+                "id": "edfa_get_information_then_osa_power",
+                "desc": "(1) get EDFA info; (2) get OSA power",
+                "devices": [
+                    "EDFA",
+                    "OSA"
+                ],
+                "expected_tools": [
+                    "get_edfa_info",
+                    "get_osa_power_measurement"
+                ],
+                "manual": [
+                    "PATH_TO_MANUALS"
+                ],
+                "py_path": [
+                    "PATH_TO_CODEBASE"
+                ],
+                "expression_var": [
+                    "(1) On the EDFA, get EDFA information; (2) On the OSA, get power in dBm.",
+                    "(1) Using the EDFA, read EDFA information; (2) Using the OSA, measure power in dBm.",
+                    "(1) For the EDFA, retrieve EDFA information; (2) For the OSA, obtain the power value in dBm.",
+                    "(1) Operate the EDFA to query EDFA information; (2) Operate the OSA to acquire a power reading in dBm.",
+                    "(1) On the EDFA, obtain EDFA information; (2) On the OSA, get the power measurement in dBm."
+                ],
+                "fluff_var": [
+                    "(1) get EDFA info; (2) get OSA power; the monitor is dusty.",
+                    "(1) get EDFA info; (2) get OSA power; the cart wheel wobbles once.",
+                    "(1) get EDFA info; (2) get OSA power; the cable tie is loose.",
+                    "(1) get EDFA info; (2) get OSA power; the bench mat is worn.",
+                    "(1) get EDFA info;; (2) get OSA power; the keyboard has a missing keycap."
+                ]
+            }
+        ]
+    },
+    "tool_3": {
+        "tasks": [
+            {
+                "id": "wss_add_conn_get_conns_get_edfa_information",
+                "desc": "(1) add one MUX WSS connection of connection-id 10 with name CH-10, with passband from 195000 to 195200 GHz with 5.0 dB attenuation on input port 10; (2) get MUX WSS connections; (3) get EDFA info",
+                "devices": [
+                    "WSS",
+                    "EDFA"
+                ],
+                "expected_tools": [
+                    "wss_add_one_connection",
+                    "get_wss_connections",
+                    "get_edfa_info"
+                ],
+                "manual": [
+                    "PATH_TO_MANUALS"
+                ],
+                "expression_var": [
+                    "(1) On the ROADM MUX WSS, add connection with connection-id 10 and name CH-10 using passband 195000 GHz to 195200 GHz and attenuation 5.0 dB on input port 10; (2) On the ROADM MUX WSS, get MUX WSS connections; (3) On the EDFA, get EDFA information.",
+                    "(1) Using the ROADM MUX WSS, create connection-id 10 named CH-10 with passband from 195000 GHz to 195200 GHz and attenuation of 5.0 dB on input port 10; (2) Using the ROADM MUX WSS, list MUX WSS connections; (3) Using the EDFA, read EDFA information.",
+                    "(1) For the ROADM MUX WSS, program a connection-id 10 named CH-10 where passband is 195000 GHz to 195200 GHz and attenuation is 5.0 dB on input port 10; (2) For the ROADM MUX WSS, retrieve MUX WSS connections; (3) For the EDFA, retrieve EDFA information.",
+                    "(1) Operate the ROADM MUX WSS to add connection-id 10 (CH-10) with passband 195000 GHz to 195200 GHz and attenuation 5.0 dB on input port 10; (2) Operate the ROADM MUX WSS to query MUX WSS connections; (3) Operate the EDFA to query EDFA information.",
+                    "(1) On the ROADM MUX WSS, set up connection-id 10 named CH-10 with passband 195000 GHz-195200 GHz and attenuation 5.0 dB on input port 10; (2) On the ROADM MUX WSS, show MUX WSS connections; (3) On the EDFA, obtain EDFA information."
+                ],
+                "fluff_var": [
+                    "(1) add one MUX WSS connection of connection-id 10 with name CH-10, with passband from 195000 to 195200 GHz with 5.0 dB attenuation on input port 10; (2) get MUX WSS connections; (3) get EDFA info; the rack sticker is peeling slightly.",
+                    "(1) add one MUX WSS connection of connection-id 10 with name CH-10, with passband from 195000 to 195200 GHz with 5.0 dB attenuation on input port 10; (2) get MUX WSS connections; (3) get EDFA info; the cart creaks during movement.",
+                    "(1) add one MUX WSS connection of connection-id 10 with name CH-10, with passband from 195000 to 195200 GHz with 5.0 dB attenuation on input port 10; (2) get MUX WSS connections; (3) get EDFA info; the bench surface has pencil marks.",
+                    "(1) add one MUX WSS connection of connection-id 10 with name CH-10, with passband from 195000 to 195200 GHz with 5.0 dB attenuation on input port 10; (2) get MUX WSS connections; (3) get EDFA info; a cable tag is folded over.",
+                    "(1) add one MUX WSS connection of connection-id 10 with name CH-10, with passband from 195000 to 195200 GHz with 5.0 dB attenuation on input port 10; (2) get MUX WSS connections; (3) get EDFA info; the power indicator is bright green."
+                ]
+            },
+            {
+                "id": "wss_add_delete_then_get_conns",
+                "desc": "(1) add one MUX WSS connection of connection-id 10 with name CH-10, with passband from 195000 to 195200 GHz with 5.0 dB attenuation on input port 10; (2) delete one MUX WSS connection of connection-id 10; (3) get MUX WSS connections",
+                "devices": [
+                    "WSS",
+                    "ROADM"
+                ],
+                "expected_tools": [
+                    "wss_add_one_connection",
+                    "delete_roadm_connection",
+                    "get_wss_connections"
+                ],
+                "manual": [
+                    "PATH_TO_MANUALS"
+                ],
+                "expression_var": [
+                    "(1) On the ROADM MUX WSS, add a connection with connection-id 10 named CH-10 using passband 195000 GHz to 195200 GHz and attenuation 5.0 dB on input port 10; (2) On the ROADM, delete the connection with connection-id 10; (3) On the ROADM MUX WSS, get MUX WSS connections.",
+                    "(1) Using the ROADM MUX WSS, create connection-id 10 named CH-10 with passband from 195000 GHz to 195200 GHz and attenuation 5.0 dB on input port 10; (2) Using the ROADM, remove connection-id 10; (3) Using the ROADM MUX WSS, list MUX WSS connections.",
+                    "(1) For the ROADM MUX WSS, program connection-id 10 named CH-10 where passband is 195000 GHz to 195200 GHz and attenuation is 5.0 dB on input port 10; (2) For the ROADM, clear connection-id 10; (3) For the ROADM MUX WSS, retrieve MUX WSS connections.",
+                    "(1) Operate the ROADM MUX WSS to add connection-id 10 (CH-10) with passband 195000 GHz to 195200 GHz and attenuation 5.0 dB on input port 10; (2) Operate the ROADM to delete connection-id 10; (3) Operate the ROADM MUX WSS to query MUX WSS connections.",
+                    "(1) On the ROADM MUX WSS, set up connection-id 10 named CH-10 with passband 195000 GHz-195200 GHz and attenuation 5.0 dB on input port 10; (2) On the ROADM, delete connection-id 10; (3) On the ROADM MUX WSS, show MUX WSS connections."
+                ],
+                "fluff_var": [
+                    "(1) add one MUX WSS connection of connection-id 10 with name CH-10, with passband from 195000 to 195200 GHz with 5.0 dB attenuation on input port 10; (2) delete one MUX WSS connection of connection-id 10; (3) get MUX WSS connections; the monitor has a faint glare.",
+                    "(1) add one MUX WSS connection of connection-id 10 with name CH-10, with passband from 195000 to 195200 GHz with 5.0 dB attenuation on input port 10; (2) delete one MUX WSS connection of connection-id 10; (3) get MUX WSS connections; the bench mat is curling.",
+                    "(1) add one MUX WSS connection of connection-id 10 with name CH-10, with passband from 195000 to 195200 GHz with 5.0 dB attenuation on input port 10; (2) delete one MUX WSS connection of connection-id 10; (3) get MUX WSS connections; a cable tag is folded over.",
+                    "(1) add one MUX WSS connection of connection-id 10 with name CH-10, with passband from 195000 to 195200 GHz with 5.0 dB attenuation on input port 10; (2) delete one MUX WSS connection of connection-id 10; (3) get MUX WSS connections; the chair wheel squeaks once.",
+                    "(1) add one MUX WSS connection of connection-id 10 with name CH-10, with passband from 195000 to 195200 GHz with 5.0 dB attenuation on input port 10; (2) delete one MUX WSS connection of connection-id 10; (3) get MUX WSS connections; a sticky note says later."
+                ]
+            },
+            {
+                "id": "wss_get_powers_get_ports_get_edfa_information",
+                "desc": "(1) get MUX WSS powers; (2) get ROADM port info; (3) get EDFA info",
+                "devices": [
+                    "WSS",
+                    "EDFA"
+                ],
+                "expected_tools": [
+                    "get_wss_powers",
+                    "get_ports_info",
+                    "get_edfa_info"
+                ],
+                "manual": [
+                    "PATH_TO_MANUALS"
+                ],
+                "expression_var": [
+                    "(1) On the ROADM MUX WSS, get powers in dBm; (2) On the ROADM, get ports information; (3) On the EDFA, get EDFA information.",
+                    "(1) Using the ROADM MUX WSS, read power levels in dBm; (2) Using the ROADM, read ports information; (3) Using the EDFA, read EDFA information.",
+                    "(1) For the ROADM MUX WSS, retrieve powers in dBm; (2) For the ROADM, retrieve ports information; (3) For the EDFA, retrieve EDFA information.",
+                    "(1) Operate the ROADM MUX WSS to query powers in dBm; (2) Operate the ROADM to query ports information; (3) Operate the EDFA to query EDFA information.",
+                    "(1) On the ROADM MUX WSS, obtain powers in dBm; (2) On the ROADM, obtain ports information; (3) On the EDFA, obtain EDFA information."
+                ],
+                "fluff_var": [
+                    "(1) get MUX WSS powers; (2) get ROADM port info; (3) get EDFA info; the fan noise is steady.",
+                    "(1) get MUX WSS powers; (2) get ROADM port info; (3) get EDFA info; the label ink is fading.",
+                    "(1) get MUX WSS powers; (2) get ROADM port info; (3) get EDFA info; a spare fiber clip is nearby.",
+                    "(1) get MUX WSS powers; (2) get ROADM port info; (3) get EDFA info; the cart wobbles slightly.",
+                    "(1) get MUX WSS powers; (2) get ROADM port info; (3) get EDFA info; the mouse feet are worn."
+                ]
+            },
+            {
+                "id": "ports_get_osa_center_get_osa_settings",
+                "desc": "(1) get ports info; (2) get OSA center wavelength; (3) OSA settings",
+                "devices": [
+                    "WSS",
+                    "OSA"
+                ],
+                "expected_tools": [
+                    "get_ports_info",
+                    "osa_get_center",
+                    "osa_get_settings"
+                ],
+                "manual": [
+                    "PATH_TO_MANUALS"
+                ],
+                "py_path": [
+                    "PATH_TO_CODEBASE"
+                ],
+                "expression_var": [
+                    "(1) On the ROADM, get ports information; (2) On the OSA, get center wavelength in nm; (3) On the OSA, get settings.",
+                    "(1) Using the ROADM, read ports information; (2) Using the OSA, read center wavelength in nm; (3) Using the OSA, read settings.",
+                    "(1) For the ROADM, retrieve ports information; (2) For the OSA, retrieve center wavelength in nm; (3) For the OSA, retrieve settings.",
+                    "(1) Operate the ROADM to query ports information; (2) Operate the OSA to query center wavelength in nm; (3) Operate the OSA to query settings.",
+                    "(1) On the ROADM, obtain ports information; (2) On the OSA, obtain center wavelength in nm; (3) On the OSA, obtain settings."
+                ],
+                "fluff_var": [
+                    "(1) get ports info; (2) get OSA center wavelength; (3) OSA settings; the HDMI cable rattles softly.",
+                    "(1) get ports info; (2) get OSA center wavelength; (3) OSA settings; the bench lamp flickers briefly.",
+                    "(1) get ports info; (2) get OSA center wavelength; (3) OSA settings; a sticky note is curled at the corner.",
+                    "(1) get ports info; (2) get OSA center wavelength; (3) OSA settings; the mouse cord snags slightly.",
+                    "(1) get ports info; (2) get OSA center wavelength; (3) OSA settings; the chair squeaks once."
+                ]
+            },
+            {
+                "id": "ocm_get_osa_xres_get_osa_span",
+                "desc": "(1) get ocm info; (2) get OSA x resolution; (3) get OSA wavelength span",
+                "devices": [
+                    "WSS",
+                    "OSA"
+                ],
+                "expected_tools": [
+                    "get_ocm_info",
+                    "osa_get_x_resolution",
+                    "osa_get_span"
+                ],
+                "manual": [
+                    "PATH_TO_MANUALS"
+                ],
+                "py_path": [
+                    "PATH_TO_CODEBASE"
+                ],
+                "expression_var": [
+                    "(1) On the OCM, get OCM information; (2) On the OSA, get x resolution in nm; (3) On the OSA, get wavelength span in nm.",
+                    "(1) Using the OCM, read OCM information; (2) Using the OSA, read x resolution in nm; (3) Using the OSA, read wavelength span in nm.",
+                    "(1) For the OCM, retrieve OCM information; (2) For the OSA, retrieve x resolution in nm; (3) For the OSA, retrieve wavelength span in nm.",
+                    "(1) Operate the OCM to query OCM information; (2) Operate the OSA to query x resolution in nm; (3) Operate the OSA to query wavelength span in nm.",
+                    "(1) On the OCM, obtain OCM information; (2) On the OSA, obtain x resolution in nm; (3) On the OSA, obtain wavelength span in nm."
+                ],
+                "fluff_var": [
+                    "(1) get ocm info; (2) get OSA x resolution; (3) get OSA wavelength span; the label font is faded.",
+                    "(1) get ocm info; (2) get OSA x resolution; (3) get OSA wavelength span; the cable tray hums.",
+                    "(1) get ocm info; (2) get OSA x resolution; (3) get OSA wavelength span; the mouse pad curls slightly.",
+                    "(1) get ocm info; (2) get OSA x resolution; (3) get OSA wavelength span; a binder clip rattles.",
+                    "(1) get ocm info; (2) get OSA x resolution; (3) get OSA wavelength span; the rack fan is louder than usual."
+                ]
+            },
+            {
+                "id": "wss_get_attenuation_osa_get_yres_get_points",
+                "desc": "(1) get WSS attenuation; (2) get OSA y resolution; (3) get OSA number of points",
+                "devices": [
+                    "WSS",
+                    "OSA"
+                ],
+                "expected_tools": [
+                    "get_wss_attenuation",
+                    "osa_get_y_resolution",
+                    "osa_get_npoints"
+                ],
+                "manual": [
+                    "PATH_TO_MANUALS"
+                ],
+                "expression_var": [
+                    "(1) On the ROADM WSS, get attenuation in dB; (2) On the OSA, get y resolution in dB; (3) On the OSA, get number of points.",
+                    "(1) Using the ROADM WSS, read attenuation in dB; (2) Using the OSA, read y resolution in dB; (3) Using the OSA, read number of points.",
+                    "(1) For the ROADM WSS, retrieve attenuation in dB; (2) For the OSA, retrieve y resolution in dB; (3) For the OSA, retrieve number of points.",
+                    "(1) Operate the ROADM WSS to query attenuation in dB; (2) Operate the OSA to query y resolution in dB; (3) Operate the OSA to query number of points.",
+                    "(1) On the ROADM WSS, obtain attenuation in dB; (2) On the OSA, obtain y resolution in dB; (3) On the OSA, obtain number of points."
+                ],
+                "fluff_var": [
+                    "(1) get WSS attenuation; (2) get OSA y resolution; (3) get OSA number of points; the monitor is dim.",
+                    "(1) get WSS attenuation; (2) get OSA y resolution; (3) get OSA number of points; the chair squeaks once.",
+                    "(1) get WSS attenuation; (2) get OSA y resolution; (3) get OSA number of points; a cable tag is loose.",
+                    "(1) get WSS attenuation; (2) get OSA y resolution; (3) get OSA number of points; the pen ink skips.",
+                    "(1) get WSS attenuation; (2) get OSA y resolution; (3) get OSA number of points; the fan hum persists."
+                ]
+            },
+            {
+                "id": "cfp2_set_freq_show_port_get_arof_bias_voltage",
+                "desc": "(1) cfp2 set frequency on port cfp2-opt-1-1 to be 195,500,000 MHz; (2) show platform port info; (3) get ARoF bias voltage",
+                "devices": [
+                    "CFP2",
+                    "ARoF"
+                ],
+                "expected_tools": [
+                    "cfp2_set_frequency",
+                    "cfp2_show_platform_port",
+                    "arof_tx_get_bias_voltage"
+                ],
+                "manual": [
+                    "PATH_TO_MANUALS"
+                ],
+                "expression_var": [
+                    "(1) On the CFP2, set frequency on port cfp2-opt-1-1 to 195,500,000 MHz; (2) On the CFP2, show platform port information; (3) On the ARoF, get bias voltage in volts.",
+                    "(1) Using the CFP2, program the frequency parameter for port cfp2-opt-1-1 to 195,500,000 MHz; (2) Using the CFP2, display platform port information; (3) Using the ARoF, read bias voltage in volts.",
+                    "(1) For the CFP2, apply a frequency setting of 195,500,000 MHz on port cfp2-opt-1-1; (2) For the CFP2, retrieve platform port information; (3) For the ARoF, retrieve bias voltage in volts.",
+                    "(1) Operate the CFP2 to configure port cfp2-opt-1-1 with frequency = 195,500,000 MHz; (2) Operate the CFP2 to show platform port information; (3) Operate the ARoF to query bias voltage (V).",
+                    "(1) On the CFP2, adjust the frequency value on port cfp2-opt-1-1 to 195,500,000 MHz; (2) On the CFP2, show platform port information; (3) On the ARoF, obtain the bias voltage reading in volts."
+                ],
+                "fluff_var": [
+                    "(1) cfp2 set frequency on port cfp2-opt-1-1 to be 195,500,000 MHz; (2) show platform port info; (3) get ARoF bias voltage; the cable tag is frayed.",
+                    "(1) cfp2 set frequency on port cfp2-opt-1-1 to be 195,500,000 MHz; (2) show platform port info; (3) get ARoF bias voltage; the rack light flickers briefly.",
+                    "(1) cfp2 set frequency on port cfp2-opt-1-1 to be 195,500,000 MHz; (2) show platform port info; (3) get ARoF bias voltage; the mouse wheel sticks slightly.",
+                    "(1) cfp2 set frequency on port cfp2-opt-1-1 to be 195,500,000 MHz; (2) show platform port info; (3) get ARoF bias voltage; the mat corner is curled.",
+                    "(1) cfp2 set frequency on port cfp2-opt-1-1 to be 195,500,000 MHz; (2) show platform port info; (3) get ARoF bias voltage; a spare ferrule rolls on the bench."
+                ]
+            },
+            {
+                "id": "cfp2_set_power_show_port_get_arof_bias_current",
+                "desc": "(1) cfp2 set output target power on port cfp2-opt-1-1 to be -3 dBm; (2) show platform port info; (3) get ARoF bias current",
+                "devices": [
+                    "CFP2",
+                    "ARoF"
+                ],
+                "expected_tools": [
+                    "cfp2_set_target_output_power",
+                    "cfp2_show_platform_port",
+                    "arof_tx_get_bias_current"
+                ],
+                "manual": [
+                    "PATH_TO_MANUALS"
+                ],
+                "expression_var": [
+                    "(1) On the CFP2, set output target power on port cfp2-opt-1-1 to -3 dBm; (2) On the CFP2, show platform port information; (3) On the ARoF, get bias current in milliamps.",
+                    "(1) Using the CFP2, program the output target power parameter for port cfp2-opt-1-1 to -3 dBm; (2) Using the CFP2, display platform port information; (3) Using the ARoF, read bias current in milliamps.",
+                    "(1) For the CFP2, apply an output target power setting of -3 dBm on port cfp2-opt-1-1; (2) For the CFP2, retrieve platform port information; (3) For the ARoF, retrieve bias current in milliamps.",
+                    "(1) Operate the CFP2 to configure port cfp2-opt-1-1 with output target power = -3 dBm; (2) Operate the CFP2 to show platform port information; (3) Operate the ARoF to query bias current (mA).",
+                    "(1) On the CFP2, adjust the output target power value on port cfp2-opt-1-1 to -3 dBm; (2) On the CFP2, show platform port information; (3) On the ARoF, obtain the bias current reading in milliamps."
+                ],
+                "fluff_var": [
+                    "(1) cfp2 set output target power on port cfp2-opt-1-1 to be -3 dBm; (2) show platform port info; (3) get ARoF bias current; the pen cap is missing.",
+                    "(1) cfp2 set output target power on port cfp2-opt-1-1 to be -3 dBm; (2) show platform port info; (3) get ARoF bias current; the tray hums quietly.",
+                    "(1) cfp2 set output target power on port cfp2-opt-1-1 to be -3 dBm; (2) show platform port info; (3) get ARoF bias current; the cart squeaks once.",
+                    "(1) cfp2 set output target power on port cfp2-opt-1-1 to be -3 dBm; (2) show platform port info; (3) get ARoF bias current; the indicator LED is bright.",
+                    "(1) cfp2 set output target power on port cfp2-opt-1-1 to be -3 dBm; (2) show platform port info; (3) get ARoF bias current; the mat is scuffed."
+                ]
+            },
+            {
+                "id": "arof_read_tx_power_osa_power_cfp2_port_info",
+                "desc": "(1) ARoF read tx output power; (2) get OSA power; (3) cfp2 port cfp2-opt-1-1 show platform port info",
+                "devices": [
+                    "ARoF",
+                    "OSA",
+                    "CFP2"
+                ],
+                "expected_tools": [
+                    "arof_tx_read_output_power",
+                    "get_osa_power_measurement",
+                    "cfp2_show_platform_port"
+                ],
+                "manual": [
+                    "PATH_TO_MANUALS"
+                ],
+                "py_path": [
+                    "PATH_TO_CODEBASE"
+                ],
+                "expression_var": [
+                    "(1) On the ARoF, read tx output power in dBm; (2) On the OSA, get power measurement in dBm; (3) On the CFP2 at port cfp2-opt-1-1, show platform port information.",
+                    "(1) Using the ARoF, measure tx output power in dBm; (2) Using the OSA, measure power measurement in dBm; (3) Using the CFP2 at port cfp2-opt-1-1, display platform port information.",
+                    "(1) For the ARoF, retrieve tx output power in dBm; (2) For the OSA, retrieve power measurement in dBm; (3) For the CFP2 at port cfp2-opt-1-1, retrieve platform port information.",
+                    "(1) Operate the ARoF to acquire tx output power in dBm; (2) Operate the OSA to acquire power measurement in dBm; (3) Operate the CFP2 at port cfp2-opt-1-1 to show platform port information.",
+                    "(1) On the ARoF, obtain tx output power in dBm; (2) On the OSA, obtain power measurement in dBm; (3) On the CFP2 at port cfp2-opt-1-1, show platform port information."
+                ],
+                "fluff_var": [
+                    "(1) ARoF read tx output power; (2) get OSA power; (3) cfp2 port cfp2-opt-1-1 show platform port info; the USB hub blinks slowly.",
+                    "(1) ARoF read tx output power; (2) get OSA power; (3) cfp2 port cfp2-opt-1-1 show platform port info; a spare ferrule is nearby.",
+                    "(1) ARoF read tx output power; (2) get OSA power; (3) cfp2 port cfp2-opt-1-1 show platform port info; the bench mat curls slightly.",
+                    "(1) ARoF read tx output power; (2) get OSA power; (3) cfp2 port cfp2-opt-1-1 show platform port info; the mouse cord snags.",
+                    "(1) ARoF read tx output power; (2) get OSA power; (3) cfp2 port cfp2-opt-1-1 show platform port info; the rack fan hums steadily."
+                ]
+            },
+            {
+                "id": "osa_get_settings_get_spectrum_cfp2_port_info",
+                "desc": "(1) osa get settings; (2) get OSA spectrum; (3) cfp2 port cfp2-opt-1-1 show platform port info",
+                "devices": [
+                    "OSA",
+                    "CFP2"
+                ],
+                "expected_tools": [
+                    "osa_get_settings",
+                    "get_osa_spectrum_measurement",
+                    "cfp2_show_platform_port"
+                ],
+                "manual": [
+                    "PATH_TO_MANUALS"
+                ],
+                "py_path": [
+                    "PATH_TO_CODEBASE"
+                ],
+                "expression_var": [
+                    "(1) On the OSA, get settings; (2) On the OSA, get spectrum measurement; (3) On the CFP2 at port cfp2-opt-1-1, show platform port information.",
+                    "(1) Using the OSA, read settings; (2) Using the OSA, measure spectrum measurement; (3) Using the CFP2 at port cfp2-opt-1-1, display platform port information.",
+                    "(1) For the OSA, retrieve settings; (2) For the OSA, retrieve spectrum measurement; (3) For the CFP2 at port cfp2-opt-1-1, retrieve platform port information.",
+                    "(1) Operate the OSA to query settings; (2) Operate the OSA to acquire spectrum measurement; (3) Operate the CFP2 at port cfp2-opt-1-1 to show platform port information.",
+                    "(1) On the OSA, obtain settings; (2) On the OSA, obtain spectrum measurement; (3) On the CFP2 at port cfp2-opt-1-1, show platform port information."
+                ],
+                "fluff_var": [
+                    "(1) osa get settings; (2) get OSA spectrum; (3) cfp2 port cfp2-opt-1-1 show platform port info; the bench lamp flickers briefly.",
+                    "(1) osa get settings; (2) get OSA spectrum; (3) cfp2 port cfp2-opt-1-1 show platform port info; the HDMI cable rattles softly.",
+                    "(1) osa get settings; (2) get OSA spectrum; (3) cfp2 port cfp2-opt-1-1 show platform port info; the cart wobbles slightly.",
+                    "(1) osa get settings; (2) get OSA spectrum; (3) cfp2 port cfp2-opt-1-1 show platform port info; a sticky note is curled.",
+                    "(1) osa get settings; (2) get OSA spectrum; (3) cfp2 port cfp2-opt-1-1 show platform port info; the mouse cable tangles a bit."
+                ]
+            }
+        ]
+    },
+    "tool_chained_generated": {
+        "tasks": [
+            {
+                "id": "cfp2_set_power_then_get_osa_power",
+                "desc": "(1) Set CFP2 output target power on port cfp2-opt-1-1 to -4 dBm; (2) Read OSA power measurement.",
+                "devices": [
+                    "CFP2",
+                    "OSA"
+                ],
+                "expected_tools": [
+                    "cfp2_set_target_output_power",
+                    "get_osa_power_measurement"
+                ],
+                "manual": [
+                    "PATH_TO_MANUALS"
+                ],
+                "py_path": [
+                    "PATH_TO_CODEBASE"
+                ],
+                "expression_var": [
+                    "First set CFP2 port cfp2-opt-1-1 output target power to -4 dBm, then measure power on the OSA in dBm.",
+                    "Set the CFP2 output target power on cfp2-opt-1-1 to -4 dBm and afterward get the OSA power reading.",
+                    "Configure CFP2 port cfp2-opt-1-1 with -4 dBm target power; next query the OSA for its power measurement.",
+                    "Program the CFP2 (port cfp2-opt-1-1) to -4 dBm target output, then capture the OSA power result.",
+                    "Apply -4 dBm target power to CFP2 port cfp2-opt-1-1, then obtain the OSA power measurement in dBm."
+                ]
+            },
+            {
+                "id": "cfp2_set_frequency_then_get_frequency",
+                "desc": "(1) Set CFP2 port cfp2-opt-1-1 frequency to 195,500,000 MHz; (2) Read CFP2 frequency to confirm.",
+                "devices": [
+                    "CFP2"
+                ],
+                "expected_tools": [
+                    "cfp2_set_frequency",
+                    "cfp2_get_frequency"
+                ],
+                "manual": [
+                    "PATH_TO_MANUALS"
+                ],
+                "expression_var": [
+                    "Set CFP2 frequency on port cfp2-opt-1-1 to 195,500,000 MHz, then read back the frequency from the CFP2.",
+                    "Program CFP2 port cfp2-opt-1-1 with 195500000 MHz and then query the CFP2 for the configured frequency.",
+                    "Apply frequency 195,500,000 MHz to CFP2 cfp2-opt-1-1; subsequently request the CFP2's current frequency.",
+                    "Configure the CFP2 (port cfp2-opt-1-1) to 195500000 MHz and then verify by getting the frequency value.",
+                    "Set the CFP2 port cfp2-opt-1-1 frequency to 195,500,000 MHz and immediately read the frequency to confirm."
+                ]
+            },
+            {
+                "id": "osa_set_center_then_get_center",
+                "desc": "(1) Set OSA center wavelength to 1550 nm; (2) Read back OSA center wavelength.",
+                "devices": [
+                    "OSA"
+                ],
+                "expected_tools": [
+                    "osa_set_center",
+                    "osa_get_center"
+                ],
+                "manual": [
+                    "PATH_TO_MANUALS"
+                ],
+                "py_path": [
+                    "PATH_TO_CODEBASE"
+                ],
+                "expression_var": [
+                    "Set the OSA center wavelength to 1550 nm, then request the OSA to return its center wavelength.",
+                    "Program the OSA with center = 1550 nm and then query the OSA for the configured center wavelength.",
+                    "Configure the OSA center wavelength at 1550 nm and immediately read the OSA center to verify.",
+                    "Apply a 1550 nm center wavelength on the OSA, then retrieve the OSA's center wavelength setting.",
+                    "First set OSA center to 1550 nm, then get the center wavelength from the OSA."
+                ]
+            },
+            {
+                "id": "osa_set_span_then_get_span",
+                "desc": "(1) Set OSA wavelength span to 10 nm; (2) Read back OSA wavelength span.",
+                "devices": [
+                    "OSA"
+                ],
+                "manual": [
+                    "PATH_TO_MANUALS"
+                ],
+                "py_path": [
+                    "PATH_TO_CODEBASE"
+                ],
+                "expected_tools": [
+                    "osa_set_span",
+                    "osa_get_span"
+                ],
+                "expression_var": [
+                    "Set the OSA span to 10 nm and then read the OSA to obtain the current span value.",
+                    "Configure wavelength span = 10 nm on the OSA, then query the OSA for the span setting.",
+                    "Apply a 10 nm span on the OSA and immediately retrieve the span value to confirm.",
+                    "Program the OSA to use 10 nm span and then get the span from the instrument.",
+                    "First set OSA wavelength span to 10 nm, then read back the span measurement from the OSA."
+                ]
+            },
+            {
+                "id": "osa_set_xres_then_get_xres",
+                "desc": "(1) Set OSA x-resolution to 0.5 nm; (2) Read back OSA x-resolution.",
+                "devices": [
+                    "OSA"
+                ],
+                "manual": [
+                    "PATH_TO_MANUALS"
+                ],
+                "py_path": [
+                    "PATH_TO_CODEBASE"
+                ],
+                "expected_tools": [
+                    "osa_set_x_resolution",
+                    "osa_get_x_resolution"
+                ],
+                "expression_var": [
+                    "Set the OSA x-resolution to 0.5 and then read the x-resolution from the OSA.",
+                    "Configure x-resolution = 0.5 on the OSA, then query the instrument for its x-resolution.",
+                    "Apply x-resolution 0.5 on the OSA and immediately request the current x-resolution value.",
+                    "Program the OSA x-resolution to 0.5 and then verify by getting the x-resolution setting.",
+                    "First change the OSA x-resolution to 0.5, then read it back from the OSA."
+                ]
+            },
+            {
+                "id": "osa_set_num_points_then_get_num_points",
+                "desc": "(1) Set OSA number of points to 200; (2) Read back OSA number of points.",
+                "devices": [
+                    "OSA"
+                ],
+                "manual": [
+                    "PATH_TO_MANUALS"
+                ],
+                "py_path": [
+                    "PATH_TO_CODEBASE"
+                ],
+                "expected_tools": [
+                    "osa_set_npoints",
+                    "osa_get_npoints"
+                ],
+                "expression_var": [
+                    "Set the OSA number of points to 200 and then request the OSA to return the number of points.",
+                    "Configure OSA npoints=200, then query the OSA for the currently configured number of points.",
+                    "Program the OSA with 200 points and immediately read back the number of points for confirmation.",
+                    "Apply a 200 points setting to the OSA, then get the OSA's number-of-points value.",
+                    "First set OSA number of points to 200, then read the number of points from the OSA."
+                ]
+            },
+            {
+                "id": "arof_set_bias_voltage_then_get",
+                "desc": "(1) Set ARoF bias voltage to -0.9 V; (2) Read ARoF bias voltage.",
+                "devices": [
+                    "ARoF"
+                ],
+                "manual": [
+                    "PATH_TO_MANUALS"
+                ],
+                "expected_tools": [
+                    "arof_tx_set_bias_voltage",
+                    "arof_tx_get_bias_voltage"
+                ],
+                "expression_var": [
+                    "Set ARoF bias voltage to -0.9 V and then read back the bias voltage from the ARoF.",
+                    "Program ARoF bias = -0.9 V, then query the ARoF for the measured bias voltage.",
+                    "Apply -0.9 V bias to the ARoF and immediately request the ARoF to report its bias voltage.",
+                    "First configure ARoF bias voltage to -0.9 V, then get the bias voltage value from the device.",
+                    "Set the ARoF bias to -0.9 V and then retrieve the ARoF's bias voltage reading."
+                ]
+            },
+            {
+                "id": "arof_set_bias_current_then_get",
+                "desc": "(1) Set ARoF bias current to 99 mA; (2) Read ARoF bias current.",
+                "devices": [
+                    "ARoF"
+                ],
+                "manual": [
+                    "PATH_TO_MANUALS"
+                ],
+                "expected_tools": [
+                    "arof_tx_set_bias_current",
+                    "arof_tx_get_bias_current"
+                ],
+                "expression_var": [
+                    "Set ARoF bias current to 99 mA and then read the bias current from the ARoF.",
+                    "Configure ARoF bias current = 99 mA, then query the ARoF for its bias current reading.",
+                    "Apply 99 mA bias on the ARoF and immediately request the ARoF to report the current.",
+                    "First program ARoF bias current to 99 mA, then get the measured bias current from the ARoF.",
+                    "Set the ARoF to 99 mA bias current and then retrieve the bias current reading."
+                ]
+            },
+            {
+                "id": "edfa_enable_then_get_edfa_info",
+                "desc": "(1) Enable booster EDFA for 3 seconds; (2) Get EDFA information.",
+                "devices": [
+                    "EDFA"
+                ],
+                "manual": [
+                    "PATH_TO_MANUALS"
+                ],
+                "expected_tools": [
+                    "enable_booster_EDFA",
+                    "get_edfa_info"
+                ],
+                "expression_var": [
+                    "Enable the booster EDFA for 3 seconds, then query the EDFA for its information/status.",
+                    "Turn on the EDFA booster for a 3 second interval and afterwards get EDFA info.",
+                    "Activate the booster EDFA for 3 s, then request EDFA information from the unit.",
+                    "First enable the booster EDFA for 3 seconds; then read back EDFA information.",
+                    "Enable EDFA (3 seconds) and then get the EDFA's reported information and status."
+                ]
+            },
+            {
+                "id": "edfa_set_output_power_then_get_osa_power",
+                "desc": "(1) Set EDFA tilt to 0 dBm; (2) Read OSA power measurement.",
+                "devices": [
+                    "EDFA",
+                    "OSA"
+                ],
+                "manual": [
+                    "PATH_TO_MANUALS"
+                ],
+                "py_path": [
+                    "PATH_TO_CODEBASE"
+                ],
+                "expected_tools": [
+                    "edfa_set_tilt",
+                    "get_osa_power_measurement"
+                ],
+                "expression_var": [
+                    "Set EDFA tilt to 0 dBm, then measure the resulting power on the OSA.",
+                    "Configure the EDFA with tilt = 0 dBm and afterwards get the OSA power reading in dBm.",
+                    "Apply a 0 dBm tilt setting to the EDFA and then query the OSA for its power measurement.",
+                    "First set the EDFA tilt to 0 dBm; next, read the OSA power to observe the effect.",
+                    "Program the EDFA with a 0 dBm tilt value and then obtain the OSA power measurement."
+                ]
+            }
+        ]
+    }
+}
